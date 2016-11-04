@@ -1,0 +1,34 @@
+{
+  "1" : {
+    "text"  : "This is the text for page 1",
+    "image" :"5-mysterious-columns.jpg",
+    "input" : ["dog_name", "Enter a name for your dog"],
+    "buttons" : [ ["Continue", "2"], ["Continue Alt","3"] ]  
+  },
+
+  "2" : {
+    "text"  : "This is the text for page 2 and his name was ${dog_name}",
+    "image" :"2-fleeting-abstract.jpg",
+    "buttons" : [ ["Back", "1"], ["Continue","3"], ["Continue","4"] ]  
+  },
+
+  "3" : {
+    "text"  : "This is the 'text' for page 3",
+    "image" :"4-historic-scene.jpg",
+    "buttons" : [ ["Back to start", "1"], ["Continue","4"] ]      
+  },
+
+  "4" : {
+    "text"  : "This is the 'text' for page 4, Is this the end?",
+    "image" : "3-alien-bug.jpg",
+    "buttons" : [ ["Continue", "5"],["Loop","1"]]    
+  },
+  
+  "5" : {
+    "text"  : "You have found the wall painting. The treasure is yours.",
+    "image" : "1-wall-painting.jpg",
+    "buttons" : []    
+  }
+  
+}
+
