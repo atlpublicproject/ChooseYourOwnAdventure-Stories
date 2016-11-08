@@ -13,18 +13,24 @@
   },
 
   "3" : {
-    "text"  : "This is the 'text' for page 3",
-    "image" :"4-historic-scene.jpg",
-    "buttons" : [ ["Back to start", "1"], ["Continue","4"] ]      
+    "text"  : "This is the 'text' for page 3 and it goes for a very long time. In fact so long that it moves the editor to the right when I type and even so long that there is no longer any text visible on the page save for these words and the preceeding sentence.",
+    "buttons" : [ ["Continue","4"] ]      
   },
 
+
   "4" : {
-    "text"  : "This is the 'text' for page 4, Is this the end?",
+    "text"  : "This is the 'text' for page 4",
+    "image" :"4-historic-scene.jpg",
+    "buttons" : [ ["Back to start", "1"], ["Continue","5"] ]      
+  },
+
+  "5" : {
+    "text"  : "This is the 'text' for page 5, Is this the end?",
     "image" : "3-alien-bug.jpg",
-    "buttons" : [ ["Continue", "5"],["Loop","1"]]    
+    "buttons" : [ ["Continue", "6"],["Loop","1"]]    
   },
   
-  "5" : {
+  "6" : {
     "text"  : "You have found the wall painting. The treasure is yours.",
     "image" : "1-wall-painting.jpg",
     "buttons" : []    
